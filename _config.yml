@@ -5,14 +5,15 @@
 # Site
 title: Flygrub
 subtitle: It's never too late from now on
-description: My Zone
-author: Flygrub
+description: flygrub's blog | unity # 网站描述，给搜索引擎用的，在生成html中的
+author: Flygrub #网站作者，在下方显示
+email: flygrub@163.com #联系邮箱
 language: zh-CN
 timezone:
 
-# URL
+# URL #域名和文件结构
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://flygrub.github.io/  #你的域名
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -27,9 +28,9 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# Writing  #写文章选项
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: post #默认layout方式
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -37,13 +38,13 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
+highlight: #代码高亮
+  enable: true #是否启用
+  line_number: true #是否显示行号
   auto_detect: true
   tab_replace:
 
-# Category & Tag
+# Category & Tag #分类与标签
 default_category: uncategorized
 category_map:
 tag_map:
