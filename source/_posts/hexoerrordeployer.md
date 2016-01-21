@@ -10,7 +10,7 @@ tags: hexo
 ## 解决方法：
 
 > * 执行命令
-> ``` bash
-> npm install hexo-deployer-git --save
-> ```
+``` bash
+npm install hexo-deployer-git --save
+```
 > *  将deploy 的 type由github改为git
