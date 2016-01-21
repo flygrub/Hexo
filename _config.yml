@@ -8,7 +8,7 @@ subtitle: It's never too late from now on
 description: flygrub's blog | unity # 网站描述，给搜索引擎用的，在生成html中的
 author: Flygrub #网站作者，在下方显示
 email: flygrub@163.com #联系邮箱
-language: zh-CN
+language: zh-Hans # zh-CN
 timezone:
 
 # URL #域名和文件结构

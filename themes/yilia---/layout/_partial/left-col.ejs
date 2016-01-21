@@ -1,4 +1,11 @@
-<div class="overlay"></div>
+<div class="overlay">
+	<% if (theme.swift_search&&theme.swift_search.enable){ %>
+		<form class="search" action="<%- config.root %>search/index.html" method="get" accept-charset="utf-8">
+			<label>Search</label>
+			<input type="text" id="search" class="st-default-search-input" maxlength="30" placeholder="Search" />
+		</form>
+	<% } %>
+</div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
