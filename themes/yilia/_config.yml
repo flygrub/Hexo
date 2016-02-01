@@ -6,12 +6,12 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/flygrub"
+  weibo: "http://weibo.com/u/2769101812"
+  #rss: "#"
+  #zhihu: "#"
   #douban: "#"
-  #mail: "#"
+  mail: "flygrub@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
