@@ -1,6 +1,6 @@
 title: linux搭建apache-mysql-PHP网站
 date: 2018-06-16 11:37:28
-tags: linux php apache mysql git
+tags: [linux, php, apache, mysql, git]
 ---
 
 ---
